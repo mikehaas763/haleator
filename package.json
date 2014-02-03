@@ -1,5 +1,5 @@
 {
-  "name": "haleator",
+  "name": "hateoasjs",
   "version": "0.0.1",
   "description": "Hypertext Application Language (HAL) library to help create HAL resources.",
   "main": "src/hal.js",
