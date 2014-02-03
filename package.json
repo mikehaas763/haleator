@@ -1,26 +1,28 @@
 {
   "name": "hateoasjs",
   "version": "0.0.1",
-  "description": "Hypertext Application Language (HAL) library to help create HAL resources.",
-  "main": "src/hal.js",
+  "description": "A HATEOAS library to help create resources on the Node.js platform.",
+  "main": "src/hateoas.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/Sendanor/nor-hal.git"
+    "url": "git://github.com/mikehaas763/hateoasjs"
   },
   "keywords": [
     "hal",
     "node",
     "json",
-    "resource"
+    "resource",
+    "hateoas"
   ],
   "author": "Mike Haas",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "mocha": "~1.17.1"
+    "mocha": "~1.17.1",
+    "expect.js": "~0.2.0"
   }
 }

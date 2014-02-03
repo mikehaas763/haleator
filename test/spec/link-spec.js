@@ -9,8 +9,11 @@
 
 'use strict';
 
-var Resource = require('./resource');
+var expect = require('expect.js');
+var Link = require('../../src/link');
 
-module.exports = {
-  Resource: resource
-};
+describe('Link', function () {
+  it('should fail', function () {
+    expect(true).to.equal(false);
+  });
+});
