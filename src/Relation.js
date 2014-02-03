@@ -9,8 +9,9 @@
 
 'use strict';
 
-var Resource = require('./Resource');
-
-module.exports = {
-  Resource: Resource
+var Relation = function (name, href) {
+  this.name = name;
+  this.href = href;
 };
+
+module.exports.Relation = Relation;

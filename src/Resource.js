@@ -7,3 +7,11 @@
  * file that was distributed with this source code.
  */
 
+'use strict';
+
+var Resource = function (relation, href) {
+  this.relation = relation;
+  this.href = href;
+};
+
+module.exports.Resource = Resource;

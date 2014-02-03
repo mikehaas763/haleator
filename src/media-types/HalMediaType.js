@@ -9,8 +9,7 @@
 
 'use strict';
 
-var Resource = require('./Resource');
-
-module.exports = {
-  Resource: Resource
+var HalMediaType = function () {
 };
+
+module.exports.HalMediaType = HalMediaType;

@@ -6,8 +6,7 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/Sendanor/nor-hal.git"
@@ -22,5 +21,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
+    "mocha": "~1.17.1"
   }
 }
